@@ -1,6 +1,7 @@
 from flask import Flask
-app=Flask(_name_)
+
+app = Flask(__name__)
 
 @app.get("/")
 def home():
-	return{"massage":"cloud2cloud MVP backend running..."}
+    return {"message": "cloud2cloud MVP backend running..."}
